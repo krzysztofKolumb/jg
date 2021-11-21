@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "fontello";
+    src: url(/font/fontello.eot?12389153);
+    src: url(/font/fontello.eot?12389153#iefix) format("embedded-opentype"),
+        url(/font/fontello.woff2?12389153) format("woff2"), url(/font/fontello.woff?12389153) format("woff"),
+        url(/font/fontello.ttf?12389153) format("truetype"), url(/font/fontello.svg?12389153#fontello) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+[class*=" icon-"]:before,
+[class^="icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: 0.2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: 0.2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-paper-plane:before {
+    content: "\e808";
+}
+.icon-mobile:before {
+    content: "\e80d";
+}
+.icon-mail-alt:before {
+    content: "\f0e0";
+}
+.icon-paper-plane-1:before {
+    content: "\f1d8";
+}
